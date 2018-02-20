@@ -6,7 +6,7 @@ exercise.salary = null;
 // load salary and data
 exercise.load = function(salary, boston){
     exercise.salaries = boston.data;
-    exercise.salary = 99000;
+    exercise.salary = salary;
 };
 
 // get salaries larger than given salary
